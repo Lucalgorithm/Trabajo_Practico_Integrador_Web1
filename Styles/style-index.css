@@ -7,9 +7,10 @@ body{
     background-image: url(/img/fondo.png);
 }
 
-p{
-    /* color: ghostwhite;*/
-}
+/*p{
+
+}*/
+
 .main-header{
     display: flex;
     justify-content: center;
