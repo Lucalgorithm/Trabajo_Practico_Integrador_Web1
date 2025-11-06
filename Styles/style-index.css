@@ -30,12 +30,12 @@ body{
 }
 
 .banner-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     background-color: black;
-    
+    padding: 20px;
 }
 
 #banner{
