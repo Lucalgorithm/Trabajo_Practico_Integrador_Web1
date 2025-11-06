@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img/fondo.png);
+}
+
+p{
+    /* color: ghostwhite;*/
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.barra{
+    display: inherit;
+    
+}
+
+#logo{
+    display: inherit;
+    width:200px;
+}
+
+.banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+#banner{
+    width:1080px;
+}
