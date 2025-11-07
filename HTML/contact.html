@@ -35,25 +35,64 @@
                     <img class="button-bar" src="../img/Iconos/icono-des.png" alt="Descargas">
                 </a>
             </div>
+
+            <div class="main-text-content" style="padding: 20px 30px;">
+            <h1>Únete a la Pesadilla: Suscríbete</h1>
+            <p>Si la idea de revivir los escalofriantes clásicos del RPG Maker o ser el primero en descubrir la próxima joya oscura te emociona, ¡únete a nuestra comunidad ahora mismo! Suscríbete al blog para recibir notificaciones inmediatas sobre nuevas incorporaciones a nuestra biblioteca, análisis detallados y contenido exclusivo de horror RPG. Asegura tu acceso a este archivo de horror y sigue expandiendo tu colección de juegos que te mantendrán despierto. ¡No te quedes fuera!</p>
+        </div>
+        
+        <div class="subscription-box">
+            
+            <form id="formulario-sus" class="subscription-form">
+                
+                <div class="campos-form">
+                    <div class="form-item">
+                        <label for="name">Nombre (*):</label>
+                        <input type="text" id="name" name="nombre" placeholder="Tu nombre de superviviente" required maxlength="50">
+                        <span class="error-message" id="error-name"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="email">Email (*):</label>
+                        <input type="email" id="email" name="correo" placeholder="ejemplo@correo.com" required>
+                        <span class="error-message" id="error-email"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="phone">Teléfono (*):</label>
+                        <input type="tel" id="phone" name="telefono" placeholder="Ej. 1123456789" required>
+                        <span class="error-message" id="error-phone"></span>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="age">Edad:</label>
+                        <input type="number" id="age" name="edad" placeholder="Solo números">
+                        <span class="error-message" id="error-age"></span>
+                    </div>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" id="terms" name="terminos" required>
+                    <label for="terms">Acepto los términos y condiciones (*)</label>
+                    <span class="error-message" id="error-terms"></span>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    Confirmar Suscripción
+                </button>
+                
+                <div id="sent-data-area"></div>
+            </form>
         </div>
 
+        </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <footer class="main-bar">
         <div class="barra" id="barra-icono">
             <img id="logo" src="../img/Iconos/icono_principal.png" align="center">
         </div>
     </footer>
+    <script src="../Scripts/script-contact.js"></script>
 </body>
 </html>

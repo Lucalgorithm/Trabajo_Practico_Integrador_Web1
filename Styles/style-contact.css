@@ -113,3 +113,85 @@ p{
     width: min-content;
     height: 51px;
 }
+
+.subscription-box {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.subscription-form {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(20, 20, 20);
+    padding: 30px;
+    border: 2px solid #550000;
+    border-radius: 8px;
+}
+
+.campos-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-item {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.subscription-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff3333;
+    font-family: 'fuente-titulos', cursive;
+    font-size: 1.1em;
+}
+
+.subscription-form input:not([type="checkbox"]), .subscription-form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(40, 40, 40);
+    border: 1px solid #440000;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'fuente-lectura', sans-serif;
+}
+
+.form-check {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-check label {
+    display: inline;
+    font-size: 1em;
+    font-family: 'fuente-lectura', sans-serif;
+    color: #ccc;
+    margin-left: 10px;
+}
+
+.error-message {
+    display: block;
+    color: rgb(218, 3, 3);
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.submit-button {
+    width: 100%; 
+    padding: 12px;
+    background-color: #ff3333; /* Rojo llamativo */
+    color: black;
+    border: 2px solid #880000;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'fuente-titulo', cursive;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ff6666;
+}
