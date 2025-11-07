@@ -1,3 +1,10 @@
+@font-face {
+    font-family: vcr_osd_mono;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
     margin: 0;
     padding: 0;
@@ -10,12 +17,15 @@ body{
     background-repeat: repeat-y;
     background-size: 100% auto;
     background-position: center top;
-
+    font-family: 'vcr_osd_mono', sans-serif;
 }
 
-/*p{
-
-}*/
+p{
+    padding: auto;
+    color: whitesmoke;
+    text-align: center;
+    
+}
 
 .main-header{
     display: flex;
@@ -65,6 +75,7 @@ body{
 .main-content{
     margin-top: 0px;
     display: flex;
+    flex-direction: column;
     background-color: rgb(10, 10, 10);
     padding: 0px;
 }
@@ -88,4 +99,55 @@ body{
 
 #desc-button{
     width: 190px;
+}
+
+.carousel-container { 
+    margin-top: px;
+    width: 800px;
+    overflow: hidden;
+    position: relative;
+    margin: -60px auto;
+}
+
+.carousel-slide {
+    justify-content: center;
+    padding: 100px;
+    gap: 10px;
+    transition: transform 0.5s ease-in-out;
+    width: 400%;
+}
+
+.carousel-img {
+    max-width: 850px;
+    max-height: 450px;
+    flex-shrink: 0;
+}
+
+#imagen-carrousel{
+    width: 600px;
+    height: 500px;
+}
+
+.prev-btn, .next-btn {
+    height: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 4px 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
 }
