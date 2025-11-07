@@ -7,6 +7,10 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(../img/fondo.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: center top;
+
 }
 
 /*p{
@@ -47,14 +51,14 @@ body{
     background-color: rgb(10, 10, 10);
 }
 
-.interactive-bar{
+/*.interactive-bar{
     display: flex;
     margin-top: %;
     background-color: rgb(47, 46, 46);
     border: 3px;
     border-color: maroon;
 
-}
+}*/
 
 #contact-button{
     width: 75px;
