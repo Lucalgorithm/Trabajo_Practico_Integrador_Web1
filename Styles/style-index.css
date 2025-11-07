@@ -6,7 +6,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../img/fondo.png);
+    background-image: url(../img/fondo.jpg);
 }
 
 /*p{
@@ -21,7 +21,6 @@ body{
 }
 .barra{
     display: inherit;
-    
 }
 
 #logo{
@@ -41,4 +40,22 @@ body{
 
 #banner{
     width: 1080px;
+}
+
+.main-content{
+    display: flex;
+    background-color: rgb(10, 10, 10);
+}
+
+.interactive-bar{
+    display: flex;
+    margin-top: %;
+    background-color: rgb(47, 46, 46);
+    border: 3px;
+    border-color: maroon;
+
+}
+
+#contact-button{
+    width: 75px;
 }
