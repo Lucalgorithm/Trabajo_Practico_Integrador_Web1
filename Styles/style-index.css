@@ -82,8 +82,10 @@ body{
     align-items: center;
 }
 
-
-
 .button-bar{
     width: 225px;
+}
+
+#desc-button{
+    width: 190px;
 }
