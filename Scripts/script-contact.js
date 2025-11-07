@@ -123,7 +123,7 @@ document.getElementById('formulario-sus').addEventListener('submit', function(ev
             if(div.parentNode) {
                 div.remove();
             }
-        }, 5000);
+        }, 20000);
         
         return false;
     } else {
